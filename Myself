@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Computer Engineering Student | Aspiring Software Developer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Write a short bio here. Example: Passionate about learning new technologies and building projects.</p>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume here: <a href="resume.pdf" target="_blank">Resume PDF</a></p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Project 1:</strong> Description and <a href="#">link</a></li>
+            <li><strong>Project 2:</strong> Description and <a href="#">link</a></li>
+            <li><strong>Project 3:</strong> Description and <a href="#">link</a></li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Python, Java, C++</li>
+            <li>Tools: Git, MATLAB, AutoCAD</li>
+            <li>Soft Skills: Communication, Teamwork</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your.email@example.com</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Your LinkedIn</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">Your GitHub</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+}
+
+section h2 {
+    color: #0077b6;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #023e8a;
+    color: white;
+}
